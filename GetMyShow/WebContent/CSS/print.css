@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color : red;
+	}
+td{
+	color : black ;
+	font-size : 150%;
+	padding : 20px;
+	font-family:monospace;
+}
+input[type = submit],[type = reset],[type=file],[type=button]
+{
+	display : none;
+}

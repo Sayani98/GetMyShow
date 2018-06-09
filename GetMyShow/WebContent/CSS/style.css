@@ -1,0 +1,113 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color : #f7f7f7;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+	background-attachment: fixed;
+	}
+#t1{
+	margin-bottom: 100px;
+}
+td{
+	color : black ;
+	text-shadow : 1px 1px 2px grey,1px 1px 2px grey ;
+	font-size : 120%;
+	padding : 20px;
+	font-family:monospace;
+	font-weight: bold;
+}
+th{
+	color : black;
+	text-shadow : 2px 2px 2px grey,2px 2px 2px grey ;
+	font-size : 200%;
+	font-weight:bold;
+	font-family: arial, sans-serif;
+}
+input[type = text],[type = password],[type = number]
+{
+	border-radius : 8px;
+	padding: 8px 20px;
+	border : line ;
+	width : 120% ;
+    box-shadow: 3px 3px 3px black;
+    box-sizing: border-box;
+    display: inline-block;
+    
+	
+}
+input[type = email]
+{
+	border-radius : 8px ;
+	padding: 8px 20px;
+	border : line ;
+	width : 150% ;
+	box-shadow: 3px 3px 3px black;
+	box-sizing: border-box;
+    display: inline-block;
+	
+}
+input[type = submit],[type = reset],[type=file],[type=button]
+{
+	border-radius: 4px;
+	border : line ;
+	cursor : pointer ;
+	margin : 4px 4px ;
+	padding : 12px 20px ;
+	box-shadow: 3px 3px 3px black;
+	background-color:red;
+	color:white;
+}
+input[type = radio]
+{
+	width:18px ;
+	position:relative;
+	height:18px;
+	cursor:pointer ;
+	margin-right: 8px ;
+	box-shadow: inset 2px 2px 1px 1px grey, 1px 1px 1px 1px black;
+}
+textarea
+{
+	font-style: bold ;
+	width : 150%;
+	border-radius : 8px;
+	border:line ;
+	box-shadow: 3px 3px 3px black;
+	
+}
+select{
+	width : 150%;
+	border-radius : 8px ;
+	border : line ;
+	padding : 8px 20px ;
+	box-shadow: 3px 3px 3px black;
+	cursor: pointer;
+	box-sizing: border-box;
+    display: inline-block;
+}
+
+a:link,a:visited{
+	color:black;
+	padding:20px,40px;
+	font-size:150%;
+	text-decoration: none;
+	text-shadow: 2px 2px 3px red , 2px 2px 3px red ;
+	font-family:monospace;
+}
+a:hover,a:active{
+	color:green;
+	padding:50px,60px;
+	font-size:350%;
+	background-color:#f0f0f0;
+	text-shadow: 0px 0px 0px red , 0px 0px 0px red ;
+	font-family:monospace;
+}
+label
+{
+	text-shadow : 0px 0px 0px white ;
+	font-size : 60%;
+	padding : 0px;
+	font-family:monospace;
+	font-weight: none;
+}
